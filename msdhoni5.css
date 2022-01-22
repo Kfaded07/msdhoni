@@ -1,0 +1,56 @@
+/**/
+.about{
+  width:80%;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+}
+.about-col{
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  background: blue;
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+}
+.about h1{
+  font-size: 35px;
+}
+.about h1:hover{
+  color: yellow;
+}
+.about h3{
+text-align: left;
+margin-top: 15px;
+}
+.about h3:hover{
+  color: yellow;
+}
+
+.about p{
+  padding: 0px;
+}
+.about p:hover{
+  color: yellow;
+}
+.about-col img{
+  height: 100px;
+  width: 140px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+.about-col .fa{
+  color: white;
+}
+.about-col .fa:hover{
+  color: yellow;
+}
+@media (max-width:700px) {
+  .about-col img{
+    margin-left: 0px;
+    margin-right: 15px;
+  }
+}

@@ -1,0 +1,69 @@
+.contact{
+  margin:100px auto;
+  width: 80%;
+  background-image: linear-gradient(
+    rgba(0,0,0,0.7),rgba(0,0,0,0.7)
+    ),url(img1.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.contact h1{
+  color: black;
+  margin-bottom: 40px;
+  padding: 0;
+}
+.contact h1:hover{
+  color: yellow;
+}
+.contact-btn{
+  color: black;
+  text-decoration: none;
+}
+.contact-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border:1px solid #fff;
+  padding: 12px 34px;
+  background:transparent;
+  position: relative;
+  cursor: pointer;
+}
+.contact-btn:hover{
+  color: yellow;
+}
+@media (max-width:700px){
+  .contact h1{
+    font-size: 24px;
+
+  }
+}
+/*footer*/
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+.footer h1{
+  font-size: 25px;
+
+}
+.footer h1:hover{
+  color: yellow;
+}
+.footer p:hover{
+  color: yellow;
+}
+.footer h1{
+  margin-top: 15px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.footer .icons{
+  font-size: 25px;
+}
+.footer .icons:hover{
+  color: yellow;
+}

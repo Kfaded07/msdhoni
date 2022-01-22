@@ -1,0 +1,42 @@
+/*csk*/
+.csk{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top:100px;
+}
+.csk-col{
+  flex-basis: 31%;
+  border-radius: 10PX;
+  margin-bottom: 5%;
+  text-align: left;
+}
+.csk-col{
+  width: 100%;
+  border-radius: 10px;
+}
+.csk  h1{
+  font-size: 35px;
+}
+.csk  h1:hover{
+color: yellow;
+}
+.csk p{
+  padding-top: 35px;
+}
+.csk p:hover{
+  color: yellow;
+}
+.csk h3{
+  text-align: center;
+  padding: 15px;
+  margin-top: 16px;
+  margin-bottom: 15px;
+}
+.csk h3:hover{
+  color: yellow;
+}
+csk-col{
+  width: 100%;
+  border-radius: 1OPX;
+}
